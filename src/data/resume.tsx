@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Abdelfatah MENNOUN",
-  initials: "DV",
+  initials: "AM",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
@@ -79,7 +79,7 @@ export const DATA = {
  work: [
     {
       company: "Upwork",
-      href: "https://www.upwork.com",
+      href: "https://www.upwork.com/freelancers/~0162553bf33be14cdd",
       badges: ['freelance'],
       location: "Remote",
       title: "Data Analyst",
@@ -199,12 +199,13 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/bike-sharing-analytics",
+          href: "https://github.com/m3nnoun/bike-sharing-analytics",
           icon: <Icons.github className='size-3' />,
         },
       ],
       image: "/projects/bike-sharing.jpg",
       video: "",
+      href:"/blog/bike-sharing-analytics"
     },
     {
       title: "JustWatch Data Scraping Project",
@@ -215,7 +216,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/justwatch-scraping",
+          href: "https://github.com/m3nnoun/justwatch-scraping",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -231,7 +232,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/olympic-athletes-analysis",
+          href: "https://github.com/m3nnoun/olympic-athletes-analysis",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -247,7 +248,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/hr-analytics-absenteeism",
+          href: "https://github.com/m3nnoun/hr-analytics-absenteeism",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -263,7 +264,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/hotel-booking-analytics",
+          href: "https://github.com/m3nnoun/hotel-booking-analytics",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -279,7 +280,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/sales-insights-optimization",
+          href: "https://github.com/m3nnoun/sales-insights-optimization",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -295,7 +296,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/sales-performance-analysis",
+          href: "https://github.com/m3nnoun/sales-performance-analysis",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -311,7 +312,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/ecommerce-scraping",
+          href: "https://github.com/m3nnoun/ecommerce-scraping",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -327,7 +328,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/contact-info-extraction",
+          href: "https://github.com/m3nnoun/contact-info-extraction",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -343,7 +344,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/yourusername/glovo-scraping",
+          href: "https://github.com/m3nnoun/glovo-scraping",
           icon: <Icons.github className='size-3' />,
         },
       ],
@@ -353,55 +354,42 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Moroccan Days of Future Data Scientists (MDFDS)",
+      dates: "April 26th - 27th, 2025",
+      location: "ESI, Rabat, Morocco",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "/mdfs.jpg",
+        "Developed a system to help hospitals predict patient volume and manage patient prioritization effectively.",
+      image: "/mdfs.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
     {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
+      title: "Google Chrome Built-in AI Challenge",
+      dates: "October 1st – December 3rd, 2024",
+      location: "Online",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "Developed a Chrome-integrated application using Google Gemini AI that generates personalized and contextual messages based on user conversations.",
+      image: "/google-hack.jpg",
       links: [
         {
-          title: "Github",
+          title: "GitHub",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/M3nnoun/conversAI",
         },
-      ],
-    },
-    {
-      title: "Waterloo Equithon",
-      dates: "May 5th - 7th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed Pocketdoc, an app in which you take a picture of a physical wound, and the app returns common solutions or cures to the injuries or diseases.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/waterloo-equithon.png",
-      links: [
+        {
+          title: "Live Demo",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://convers-ai.vercel.app/",
+        },
         {
           title: "Devpost",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
+          href: "https://devpost.com/software/conversai",
         },
         {
           title: "YouTube",
           icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
+          href: "https://youtu.be/W1X1kt9Vl9Q",
         },
       ],
     }
