@@ -1,4 +1,5 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import { Icons } from "@/components/icons";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -196,27 +197,42 @@ export default function Page() {
       </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 16}>
-            <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
-              </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
-                <Link
-                  href={DATA.contact.social.X.url}
-                  className="text-blue-500 hover:underline"
-                >
-                  with a direct question on twitter
-                </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
-              </p>
-            </div>
-          </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 16}>
+  <div className="space-y-4">
+    <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+      Contact
+    </div>
+    <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+      Get in Touch
+    </h2>
+    <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+      Want to chat? Just shoot me a dm{" "}
+      <Link
+        href={DATA.contact.social.LinkedIn.url}
+        className="text-blue-500 hover:underline"
+      >
+        with a direct question on LinkedIn
+      </Link>{" "}
+      and I&apos;ll respond whenever I can. I will ignore all
+      soliciting.
+    </p>
+    <p className="text-center">OR</p>
+    {/* Added contact information */}
+    <div className="mt-6 space-y-3 max-w-[600px] mx-auto">
+      <div className="p-3 rounded-lg text-left">
+        <p className="font-medium">Email: <a href="mailto:mennoun.abdelfatah@gmail.com" className="text-blue-500 hover:underline">mennoun.abdelfatah@gmail.com</a></p>
+      </div>
+      
+      <div className="p-3 rounded-lg text-left">
+        <p className="font-medium">Phone: <a href="tel:+212775341662" className="text-blue-500 hover:underline">+212775341662</a></p>
+      </div>
+      
+      <div className="p-3 rounded-lg text-left">
+        <p className="font-medium">WhatsApp: <a href="https://wa.me/212775341662" className="text-blue-500 hover:underline">+23221223</a></p>
+      </div>
+    </div>
+  </div>
+</BlurFade>
         </div>
       </section>
     </main>
