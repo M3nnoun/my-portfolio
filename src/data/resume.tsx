@@ -78,6 +78,7 @@ export const DATA = {
   },
  work: [
     {
+      id: 1,
       company: "Upwork",
       href: "https://www.upwork.com/freelancers/~0162553bf33be14cdd",
       badges: ['freelance'],
@@ -90,6 +91,7 @@ export const DATA = {
         "Freelance role involving statistical data analysis, automation engineering, and data visualization using tools like Pandas, Python, and Microsoft Power BI. Focused on data cleaning, collection, and statistical modeling to provide actionable insights.",
     },
     {
+      id: 2,
       company: "Self-employed",
       badges: ['freelance'],
       href: "",
@@ -102,6 +104,7 @@ export const DATA = {
         "Conducted data analysis with a focus on problem-solving, data cleaning, and web scraping. Utilized Python, Microsoft Excel, and Google Sheets for automation and dashboard creation. Applied statistical analysis and data mining techniques to support decision-making processes.",
     },
     {
+      id: 3,
       company: "Haut Commissariat au Plan",
       href: "",
       badges: [],
@@ -115,6 +118,7 @@ export const DATA = {
     },
     
     {
+      id: 4,
       company: "Self-employed",
       href: "",
       badges: [],
@@ -127,6 +131,7 @@ export const DATA = {
         "Developed full-stack applications using technologies like PHP, Next.js, React.js, Laravel, and JavaScript. Focused on both front-end and back-end development, including automation and e-commerce solutions.",
     },
     {
+      id: 5,
       company: "Haut Commissariat au Plan",
       href: "",
       badges: ["internship"],
@@ -139,6 +144,7 @@ export const DATA = {
         "Worked on the development of Sustainable Development Goals (SDGs) in the Laayoune-Sakia El Hamra region. Collected and analyzed data using various statistical techniques, including SPSS. Gained hands-on experience in data collection, analysis, and reporting to support regional development initiatives.",
     },
     {
+      id: 6,
       company: "Private School El Hikma",
       href: "",
       badges: ["internship"],
@@ -151,6 +157,7 @@ export const DATA = {
         "Internship role involving project management and software development using Java and Java Swing. Gained experience in database management and communication skills.",
     },
     {
+      id: 7,
       company: "Es Semara Province",
       href: "",
       badges: ["internship"],
