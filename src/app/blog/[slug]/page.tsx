@@ -4,6 +4,7 @@ import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import Image from 'next/image';
 
 export async function generateStaticParams() {
   const posts = await getBlogPosts();
